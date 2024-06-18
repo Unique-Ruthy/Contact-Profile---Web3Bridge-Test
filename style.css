@@ -17,11 +17,21 @@ body {
   width: 500px;
 }
 
-h1,
+h1 {
+  margin: 0 0 10px;
+  text-align: center;
+  color: rgb(25, 78, 78);
+  font-family: "Rubik";
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
 h2 {
   margin: 0 0 10px;
   text-align: center;
   color: rgb(25, 78, 78);
+  font-family: "Rubik";
+  margin-bottom: 30px;
 }
 
 .form-container,
@@ -39,9 +49,11 @@ label {
 input {
   width: 100%;
   padding: 8px;
-  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 20px;
 }
 
 button {
